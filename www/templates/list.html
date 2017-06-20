@@ -1,0 +1,26 @@
+<div class="bar bar-header bar-balanced">
+  <h1 class="title">List</h1>
+</div>
+<br>
+<br>
+
+<a ui-sref="Search" a class="button icon-left ion-chevron-left button-calm">Search</button></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a ui-sref="login"><button class="button icon-left ion-home">Home</button></a>
+<br><div class="list">
+
+    <a ng-repeat= "list in datalist "class="item item-thumbnail-left" href="#">
+	
+      <img src="{{list.pic}}">
+      <h2>{{list.fname}}</h2>
+      <p>{{list.lname}}</p>
+
+    
+    </a>
+<br>
+<br>
+<br>
+<div class="bar bar-footer bar-balanced">
+  <div class="title">Footer</div>
+
+</div>

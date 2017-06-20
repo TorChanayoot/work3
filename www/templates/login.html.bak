@@ -1,0 +1,26 @@
+<form ng-submit="doLogin()">
+  <div class="bar bar-header bar-balanced">
+  <h1 class="title">Login</h1>
+</div>
+<br>
+
+  <div class="list bar-subheader">
+  <label class="item item-input">
+   <span class="input-label">Username</span>
+    <input type="text" ng-model="login.username">
+  </label>
+  <label class="item item-input">
+    <span class="input-label">Password</span>
+    <input type="password"  ng-model="login.password">
+ 
+  </label>
+  <br>
+  <br>
+<center><button class="button button=-clear button-positive">>> LOHIN << </center>
+</div>
+<button type="submit">Log in </button>
+</form>
+<div class="bar bar-footer bar-balanced">
+  <div class="title">Footer</div>
+ 
+</div>

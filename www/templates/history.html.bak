@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body >
+  <div class="bar bar-header bar-balanced">
+  <h1 class="title">HISTORY</h1>
+</div>
+
+<div class="list bar-subheader">
+<a ui-sref="login"><button class="button icon-left ion-home">Home</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a ui-sref="Search" a class="button icon-right ion-chevron-right button-calm">Search</button></a>
+  <div class="item item-avatar">
+    <img src="img/1.jpg">
+    <h2>CHANAYOOT BOONSAN</h2>
+    <p>TOR</p>
+  </div>
+
+  <div class="item item-body">
+   <center> <img class="full-image" src="img/2.jpg" style="width:50%">
+     <p>นาย ชนายุทธ บุญสาร</p>
+	 <p>แผนก เทคโนโลยีสารสนเทศ</p>
+	 <p>สามารถติดต่อได้ที่ :facebook:  Chanayoot Boonsan</p>
+	 <p>Line : torza587</p>
+	 <p> เบอร์โทรศัพท์ : 061-1137389</p></center>
+	<p>
+    </p>
+    <p>
+      <a href="#" class="subdued">999 Like</a>
+      <a href="#" class="subdued">999 Comments</a>
+    </p>
+  </div>
+
+</div>
+<div class="bar bar-footer bar-balanced">
+  <div class="title">Footer</div>
+</div>
+ </body>
+</html>
